@@ -8,6 +8,7 @@
     "remove": "serverless remove --stage prod --region us-east-2"
   },
   "dependencies": {
+    "@aws-sdk/client-ssm": "^3.525.0",
     "@neondatabase/serverless": "^0.9.0",
     "drizzle-orm": "^0.29.4",
     "express": "^4.18.2",
